@@ -1,0 +1,335 @@
+@font-face {
+    font-family: gruberrFont;
+    src: url(../fonts/Montserrat-Light.otf);
+
+}
+
+body {
+    font-family: gruberrFont, Times, serif;
+}
+
+#utility-2 {
+    background: #f6f6f7;
+    padding: 0px 0px 60px 0px;
+}
+
+#utility {
+    padding: 0px;
+}
+
+#feature {
+    background: #f6f6f7;
+    padding:60px 0;
+}
+
+
+.coverImage {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.6);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+header {
+    background: none;
+    position: absolute;
+    -webkit-box-shadow: none;
+}
+
+.menu .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu .navbar {
+    float: right;
+    padding-top: 15px;
+}
+
+#name {
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: gruberrFont, Times, serif;
+}
+
+#navGradient {
+   background: -webkit-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+#service .service-wrapper {
+    border: none;
+    padding: 50px 0px;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.cusinesCategoryHeading {
+    font-family: gruberrFont, Times, serif;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+
+.cusinesCategoryPara {
+    font-family: gruberrFont, Times, serif;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #999;
+    font-size: 15px;
+}
+
+.cuisinesFont {
+    font-family: gruberrFont, Times, serif;
+    font-size: 17px;
+    color: #999;
+
+}
+
+#utility-2 .block img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#utility .block img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#utility-2 .block {
+    text-align: center;
+}
+
+#utility .block {
+    text-align: center;
+}
+
+#utility-2 .block p {
+    color: #777;
+}
+
+h2.heading {
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: 900;
+    color: black;
+    font-family: gruberrFont, Times, serif;
+}
+
+#utility-2 .block h2  {
+    color: black;
+}
+
+#utility .block h2 {
+    color: black;
+}
+
+#feature .feature-item {
+    margin-top: 0px;
+}
+
+.alignDivMiddle {
+    display: inline-block;
+    vertical-align: middle; 
+    align-self: center;
+}
+
+.alignDivMiddleParent:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.alignDivMiddleParent {
+    text-align: center; 
+    justify-content: center;
+}
+
+@media only screen and (min-width: 767px) {
+    .alignDivMiddleParent  {
+        display: flex;
+        text-align: center; 
+        justify-content: center;
+    }
+}
+
+#subscribe {
+    padding: 0px;
+    padding-bottom: 60px;
+}
+
+.getApp {
+   position:absolute;
+   /*right:70%;*/
+    text-align: center;
+    color: white;
+    top:40%;
+}
+
+.wrapper {
+    position: absolute;
+    background-color:transparent;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+
+.playStoreButton {
+    position: absolute;
+    top: 80%;
+    right: 5%;
+
+}
+
+.playStoreButtonMobile {
+    position: absolute;
+    margin-top: 30px;
+    top: 70%;
+    right: 5%;
+    display: none;
+}
+
+.getAppButton {
+    background: #3e50b5;
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.getAppText {
+    background: #FFF;
+    color: #777;
+    border: 0;
+}
+
+.getAppHeading {
+    margin-bottom: 20px;
+    color: #777;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.black {
+    background-color: rgba(0,0,0,.1);
+}
+
+@media only screen and (max-width:991px) {
+    #service {
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .wrapper {
+    position: absolute;
+    background-color:transparent;
+    border:0;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    top: 45%;
+
+}
+
+    .playStoreButton {
+        position: absolute;
+        margin-top: 30px;
+        top: 70%;
+        right: 5%;
+        display: inline-block;
+    }
+
+    .getAppHeading {
+        margin-bottom: 20px;
+        color: white;
+        text-align: left;
+    }
+    
+    .playStoreButtonMobile {
+        display: none;
+        position: absolute;
+        margin-top: 30px;
+        top: 70%;
+        right: 5%;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) { 
+    
+    .playStoreButton {
+        position: absolute;
+        top: 60%;
+        right: 5%;
+        display: none;
+    }
+    
+    .playStoreButtonMobile {
+        display: inline-block;
+        position: absolute;
+        margin-top: 30px;
+        top: 74%;
+        right: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px) { 
+    
+    .playStoreButtonMobile {
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    }
+    
+    .playStoreButton {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 300px) { 
+    
+    .playStoreButtonMobile {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    }
+    
+    .playStoreButton {
+        display: none;
+    }
+}
+
+footer {
+    padding-top: 20px;
+}
+
+.menu .navbar-default .navbar-nav > li > a {
+    font-family: gruberrFont, Times, serif;
+    font-size: 15px;
+}
