@@ -272,7 +272,7 @@ h2.heading {
     margin-top: 125px;
 }
 
-.reviewSection {
+.reviewGroup {
     margin-top: 50px;
 }
 
@@ -292,6 +292,24 @@ h2.heading {
 }
 
 /******************************Count******************************/
+
+/*****************************Slider******************************/
+
+h3 {
+    display: inline-block;
+    padding: 10px;
+    background: #B9121B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*****************************Slider******************************/
 
 @media only screen and (max-width:991px) {
     #service {
