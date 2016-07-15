@@ -93,7 +93,7 @@ header {
     text-align: center;
     font-weight: 900;
     color: black;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .cusinesCategoryPara {
@@ -241,19 +241,23 @@ h2.heading {
 }
 
 .gruberr_chef_statistics {
-    /*
     background: #ffffff;
-    */
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     color: black;
     font-family: gruberrFont;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    /*box-shadow: 1px 1px 3px #888888;*/
+    box-shadow: 1px 1px 3px #AAA;
+}
+
+.countText {
+    color: black;
+    font-family: gruberrFont;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /*******************************Review***************************/
@@ -310,8 +314,8 @@ h2.heading {
 /******************************Count******************************/
 
 .count {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #f7f7f7;
 }
 
@@ -455,6 +459,30 @@ h1 {
     #service {
         padding-top: 60px;
     }
+
+    .backgroundHeading {
+        font-size: 50px;
+    }
+
+    .reviewTextAlign {
+        margin-top: 75px;
+    }
+
+    .reviewTextAlignChef {
+        margin-top: 5px;
+    }
+
+    .reviewTextAlignPeople {
+        margin-top: 50px;
+    }
+
+    .cusinesCategoryHeading {
+        padding-top: 450px;
+    }
+
+    .carousel-caption {
+        bottom: 40%;
+    }
 }
 
 @media only screen and (min-width: 991px) {
@@ -509,6 +537,14 @@ h1 {
         top: 74%;
         right: 10%;
     }
+
+    .cusinesCategoryHeading {
+        padding-top: 1000px;
+    }
+
+    .backgroundHeading {
+        font-size: 40px;
+    }
 }
 
 @media only screen and (max-width: 500px) { 
@@ -521,6 +557,39 @@ h1 {
     
     .playStoreButton {
         display: none;
+    }
+
+    .reviewTextAlign {
+        margin-top: 0;
+    }
+
+    .reviewTextAlignChef {
+        margin-top: 25px;
+    }
+
+    .reviewTextAlignPeople {
+        margin-top: 50px;
+    }
+
+    .count {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .cusinesCategoryHeading {
+        padding-top: 700px;
+    }
+
+    .backgroundHeading {
+        font-size: 30px;
+    }
+
+    #utility-2 .block {
+        padding-top: 20px;
+    }
+
+    #utility .block h2 {
+        padding-top: 20px;
     }
 }
 
