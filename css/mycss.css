@@ -268,7 +268,10 @@ h2.heading {
 }
 
 .reviewImageChefSize {
-    max-width: 100%;
+    width: 500px;
+    max-width: 520px;
+    height: 400px;
+    max-height: 430px;
     padding-top: 50px;
 }
 
@@ -453,6 +456,22 @@ h1 {
     color:#b43838;
 }
 
+.carousal-video {
+    overflow: visible;
+    max-height: 350px;
+}
+
+.iFrameSize {
+    height: 350px;
+    width: 550px;
+}
+
+.videoSize {
+    max-height: 351px;
+    height: 350px;
+    width: 550px;
+    max-width: 600px;
+}
 /****************************Contact Form****************************/
 
 @media only screen and (max-width:991px) {
