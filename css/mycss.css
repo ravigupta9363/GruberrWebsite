@@ -4,6 +4,13 @@
 
 }
 
+
+@font-face {
+    font-family: bostonTraffic;
+    src: url(../fonts/boston_traffic.ttf);
+}
+
+
 body {
     font-family: gruberrFont, Times, serif;
 }
@@ -302,6 +309,7 @@ h2.heading {
 
 .reviewSection {
     padding-top: 40px;
+    margin-bottom: 50px;
 }
 
 .reviewHeading {
@@ -404,7 +412,17 @@ h1 {
 
 /*****************************Video Slider-********************************/
 .videoSlider1 {
-    margin-top: 50px;
+    margin-top: 10px;
+}
+
+#slider, #slider .sliderInner {
+    max-width: 500px;
+    width: 500px;
+}
+
+#sliderFrame {
+    max-width: 500px;
+    width: 500px;
 }
 
 /*****************************Video Slider***********************************/
