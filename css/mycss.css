@@ -359,7 +359,7 @@ h1 {
 }
 
 .carousel-caption {
-    bottom: 35%;
+    bottom: 5%;
 }
 
 .backgroundHeading {
@@ -370,8 +370,44 @@ h1 {
     font-family: gruberrFont;
 }
 
+.socialButtons {
+    padding: 15px;
+    padding-top: 20%;
+    cursor: pointer;
+    color: #eee;
+}
+
+.socialButtons:hover {
+    color:white;
+}
+
+.aboutUsContainer {
+    margin-top: 20px;
+}
+
+.aboutUsHeading {
+    font-weight: bold;
+    font-family: gruberrFont;
+}
+
+.aboutUsText {
+    margin-top: 100px;
+}
+
+.aboutUsParagraph {
+    line-height: 2em;
+    font-family: gruberrFont;
+}
 
 /*****************************Slider******************************/
+
+
+/*****************************Video Slider-********************************/
+.videoSlider1 {
+    margin-top: 50px;
+}
+
+/*****************************Video Slider***********************************/
 
 /****************************Contact Form****************************/
 

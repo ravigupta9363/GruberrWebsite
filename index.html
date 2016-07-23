@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/animate.css">
+        <link href="css/js-image-slider.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/mycss.css">
 
@@ -35,6 +36,8 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/mcVideoPlugin.js" type="text/javascript"></script>
+        <script src="js/js-image-slider.js" type="text/javascript"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/wow.min.js"></script>
@@ -117,9 +120,13 @@
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
+
                 <div class="carousel-caption">
                     <h1 class="backgroundHeading">GRUBBER</h1>
-                    <h4 class="backgroundSubheading">FOOD | MEDIA</h4>
+                    <h4 class="backgroundSubheading">FOOD | MEDIA | PUBLICATION</h4>
+                    <a href="http://www.instagram.com"><i class="fa fa-instagram fa-2x socialButtons" aria-hidden="true" f></i></a>
+                    <a href="http://www.facebook.com"><i class="fa fa-facebook fa-2x socialButtons" aria-hidden="true"></i></a>
+                    <a href="http://www.twitter.com"><i class="fa fa-twitter fa-2x socialButtons" aria-hidden="true"></i></a>
                 </div>
                 <div class="item">
                     <div class="backgroundOpaque"></div>
@@ -154,12 +161,59 @@
             </a>
         </div>
 
+    <div class="videoSlider1">
+        <div id="sliderFrame">
+            <div id="slider">
+                <video preload="none" data-image="images/image-slider-1.jpg" controls>
+                    <source data-src="prod/mcvideo.mp4" type="video/mp4" />
+                    <source data-src="prod/mcvideo.ogg" type="video/ogg" />
+                </video>
+                <a class="lazyImage" href="images/image-slider-3.jpg">Slide 3</a>
+                <audio preload="none" data-image="images/image-slider-5.jpg"
+                       data-alt="" controls>
+                    <source data-src="prod/mcaudio.mp3" type="audio/mpeg">
+                    <source data-src="prod/mcaudio.ogg" type="audio/ogg">
+                </audio>
+            </div>
+            <!--thumbnails-->
+          <!--  <div id="thumbs" data-autovideo="true">
+                <div class="thumb">
+                    <img src="images/thumb1.jpg" /><div class="playvideo"></div>
+                </div>
+                <div class="thumb">
+                    <img src="images/thumb3.jpg" />
+                </div>
+                <div class="thumb">
+                    <img src="images/thumb5.jpg" /><div class="playvideo"></div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+
+
+        <!----------------------------------------------About us--------------------------------------------------------------->
+        <div class="col-sm-10 col-sm-offset-1 aboutUsContainer">
+            <div class="col-sm-6">
+                <img src="images/Cake.png"/>
+            </div>
+            <div class="col-sm-6 aboutUsText">
+                <h2 class="aboutUsHeading">About us</h2>
+                <hr />
+                <p class="aboutUsParagraph">We work with local people affected by conflict to improve their safety and sense of security,
+                    and conduct wider research and analysis. We use this evidence and learning to improve local,
+                    national and international policies and practices that can help build lasting peace.
+                    Our priority is people – we believe that everyone should be able to lead peaceful, fulfilling lives,
+                    free from insecurity and violent conflict.</p>
+            </div>
+        </div>
+        <!----------------------------------------------About us--------------------------------------------------------------->
+
 
 
         <!-------------------------------------------------------Team------------------------------------------------------------>
 
 
-            <div class="col-sm-8 col-sm-offset-2" style="background-color: #f7f7f7;margin-top: 50px;padding: 75px ">
+            <div class="col-sm-12" style="background-color: #f7f7f7;margin-top: 50px;padding: 75px ">
                 <div class="col-md-4 col-sm-6">
                     <div class="card-container manual-flip">
                         <div class="card">
@@ -268,40 +322,6 @@
                         <div class="col-md-5 col-lg-5 col-sm-5 col-xs-12">
                             <div class="block reviewImageChefSize">
 
-                                <div id="mycarousel2" class="carousel slide" data-ride="carousel">
-
-                                    <!-- Indicators -->
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#mycarousel2" data-slide-to="0" class="active"></li>
-                                        <li data-target="#mycarousel2" data-slide-to="1"></li>
-                                        <li data-target="#mycarousel2" data-slide-to="2"></li>
-                                        <li data-target="#mycarousel2" data-slide-to="3"></li>
-                                        <li data-target="#mycarousel2" data-slide-to="4"></li>
-                                    </ol>
-
-                                    <!-- Wrapper for slides -->
-                                    <div class="carousel-inner carousal-video" role="listbox">
-                                        <div class="item videoSize">
-                                            <iframe class="iFrameSize" src="https://www.youtube.com/embed/q_mmmNLVI1E?autoplay=1"></iframe>
-                                        </div>
-                                        <div class="item">
-                                            <img src="images/background2.jpg" data-color="firebrick" alt="Second Image">
-                                        </div>
-                                        <div class="item">
-                                            <img src="images/background3.jpg" data-color="violet" alt="Third Image">
-                                        </div>
-                                        <div class="item">
-                                            <img src="images/background4.jpg" data-color="lightgreen" alt="Fourth Image">
-                                        </div>
-                                        <div class="item">
-                                            <img src="images/background5.jpg" data-color="tomato" alt="Fifth Image">
-                                        </div>
-                                    </div>
-
-                                </div>
-
-
-
 
 
                             </div>
@@ -329,246 +349,7 @@
             </section>
 
 
-            <section class="reviewSection">
-                <div class="container-fluid">
-                        <div class="col-md-5 col-sm-5 col-lg-5 col-xs-12 col-md-offset-1 col-lg-offset-1 col-sm-offset-1 reviewTextAlignPeople">
-                            <div class="block">
-                                <p class="cusinesCategoryPara reviewsPara">
-                                    "I found bliss here...loving everything from bakes to sandwiches to enchiladas! Pure heaven!"
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-5 col-lg-5 col-sm-5 col-xs-12">
-                            <div class="block reviewImagePeopleSize">
-                                <img class="img-responsive" src="images/people.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-            </section>
-        </section>
-
-
         <!--------------------------------------------------------Reviews ------------------------------------------------------->
-
-
-        <!------------------------------------------------------- Count ---------------------------------------------------------->
-
-        <section  class="countParent">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 count">
-                <div class="gruberr_chef_statistics col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
-                    <p class="countText">100+</p>
-                    <p class="countText">Chefs</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 count">
-                <div class="gruberr_chef_statistics col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
-                    <p class="countText">1000+</p>
-                    <p class="countText">Users</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 count">
-                <div class="gruberr_chef_statistics col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
-                    <p class="countText">10+</p>
-                    <p class="countText">Restaurents</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 count">
-                <div class="gruberr_chef_statistics col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
-                    <p class="countText">10000+</p>
-                    <p class="countText">Recipes</p>
-                </div>
-            </div>
-        </section>
-
-        <!--------------------------------------------------------Count ---------------------------------------------------------->
-
-        <section id="service">
-            <div class="container">
-                <div class="service-wrapper">
-                    <h3 class="cusinesCategoryHeading">Variety of cusines to eat from</h3>
-                    <p class="cusinesCategoryPara col-md-12">Learn and cook your favourite recipe from wide range of cusines and get ingredients delivered at your doorstep.</p>
-
-                    <div class="row">
-
-                        <!------------------------------------------------------ICONS--------------------------------------------------------------------------->
-                        <!-------------------------------------------------------------ROW 1 --------------------------------------------------------------------->
-
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div>
-                                    <img src="icons/Mexican.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Mexican</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div>
-                                    <img src="icons/Italian.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Italian</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/Indian.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Indian</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/Cajun.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Cajun</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/Thai.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Thai</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/Chinese.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Chinese</h4>
-                            </div>
-                        </div>
-
-                        <!-------------------------------------------------------------ROW 1 --------------------------------------------------------------------->
-
-                        <!-------------------------------------------------------------ROW 2 --------------------------------------------------------------------->
-
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/Japanese.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Japanese</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/American.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">American</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/French.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">French</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/Spanish.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Spanish</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/Caribbean.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Caribbean</h4>
-                            </div>
-                        </div>
-
-
-                        <!-------------------------------------------------------------ROW 2 --------------------------------------------------------------------->
-
-                        <!-------------------------------------------------------------ROW 3 --------------------------------------------------------------------->
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/Gujrati.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Gujrati</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/Marathi.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Marathi</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/Rajasthani.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Rajasthani</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/Punjabi.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">Punjabi</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/SouthIndian.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">South Indian</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <div class="icon">
-                                <div >
-                                    <img src="icons/NorthIndian.png"/>
-                                </div>
-                                <h4 class="cuisinesFont">North Indian</h4>
-                            </div>
-                        </div>
-
-                        <!-------------------------------------------------------------ROW 3 --------------------------------------------------------------------->
-
-
-                        <!------------------------------------------------------ICONS--------------------------------------------------------------------------->
-
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
-
-
-
 
     <section id="feature">
         <div class="container-fluid">
@@ -651,32 +432,6 @@
     </section>
 
 
-
-        <!--<section id="contact">
-
-
-            <h2>CONTACT ME</h2>
-
-                <div class="container">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-
-                    <form name="htmlform" method="post" action="toyousender.php">
-
-                        <input type="text" name="first_name" placeholder="NAME" required>
-
-                        <input  type="email" name="email" placeholder="MAIL" required>
-
-                        <textarea name="comments" placeholder="MESSAGE" required ></textarea>
-
-                        <button name="send" type="submit" class="submit">SEND</button>
-
-                    </form>
-
-                </div>
-            </div>
-        </section>
--->
     <footer class="wow fadeInUp" id="contact">
         <div class="container text-center">
             <div class="row">
@@ -695,3 +450,7 @@
 
     </body>
 </html>
+
+
+<!--http://www.creative-tim.com/live/rotating-css-card#-->
+<!--http://www.menucool.com/slider/play-html5-video-or-audio-in-slider-->
