@@ -10,22 +10,28 @@
     src: url(../fonts/boston_traffic.ttf);
 }
 
+@font-face {
+    font-family: chunkFive;
+    src: url(../fonts/Chunkfive.otf);
+}
+
 
 body {
     font-family: gruberrFont, Times, serif;
 }
 
 #utility-2 {
-    background: #f6f6f7;
+    background: #FFF;
     padding: 0px 0px 60px 0px;
 }
 
 #utility {
+    background: #FFF;
     padding: 0px;
 }
 
 #feature {
-    background: #f6f6f7;
+    background: #FFF;
     padding:60px 0;
 }
 
@@ -316,8 +322,26 @@ h2.heading {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    font-family: gruberrFont, Times, serif;
+    font-family: chunkFive;
     font-weight: bold;
+}
+
+.appHeading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: chunkFive;
+}
+
+.teamHeading {
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 35px;
+    font-family: chunkFive;
+}
+
+.reviewGrp2{
+    text-align: center;
 }
 
 /*******************************Review***************************/
