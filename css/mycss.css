@@ -281,10 +281,8 @@ h2.heading {
 }
 
 .reviewImageChefSize {
-    width: 500px;
-    max-width: 520px;
-    height: 400px;
-    max-height: 430px;
+    width: auto;
+    height: auto;
     padding-top: 50px;
 }
 
@@ -439,7 +437,7 @@ h1 {
     margin-top: 10px;
 }
 
-#slider, #slider .sliderInner {
+#slider, #slider .sliderInner, #slider1, #slider1 .sliderInner, #slider2, #slider2 .sliderInner {
     max-width: 500px;
     width: 500px;
 }
@@ -565,6 +563,15 @@ h1 {
 /***************************TEAM***********************************************/
 
 @media only screen and (max-width:991px) {
+
+    .video2Block {
+        margin-top: 30px;
+    }
+
+    .aboutUsText {
+        margin-top: 0;
+    }
+
     #service {
         padding-top: 60px;
     }
@@ -630,7 +637,39 @@ h1 {
     
 }
 
-@media only screen and (max-width: 700px) { 
+@media only screen and (max-width: 700px) {
+
+    .aboutUsText {
+        margin-top: 0;
+    }
+
+    .cakeSize {
+        max-width: 500px;
+    }
+
+    .reviewHeading {
+        font-size: 35px;
+    }
+
+    .appHeading {
+        font-size: 35px;
+    }
+
+    .teamHeading {
+        font-size: 35px;
+    }
+
+    #slider, #slider .sliderInner, #slider1, #slider1 .sliderInner, #slider2, #slider2 .sliderInner {
+        max-width: 500px;
+        width: 500px;
+        height: 300px;
+    }
+
+    #sliderFrame {
+        max-width: 500px;
+        width: 500px;
+        height: 300px;
+    }
     
     .playStoreButton {
         position: absolute;
@@ -654,9 +693,46 @@ h1 {
     .backgroundHeading {
         font-size: 40px;
     }
+
+    .video2Block {
+        margin-top: 30px;
+    }
 }
 
-@media only screen and (max-width: 500px) { 
+@media only screen and (max-width: 500px) {
+
+    .aboutUsText {
+        margin-top: 0;
+    }
+
+    .cakeSize {
+        max-width: 300px;
+    }
+
+
+    #slider, #slider .sliderInner, #slider1, #slider1 .sliderInner, #slider2, #slider2 .sliderInner {
+        max-width: 300px;
+        width: 300px;
+        height: 200px;
+    }
+
+    #sliderFrame {
+        max-width: 300px;
+        width: 300px;
+        height: 200px;
+    }
+
+    .reviewHeading {
+        font-size: 30px;
+    }
+
+    .appHeading {
+        font-size: 30px;
+    }
+
+    .teamHeading {
+        font-size: 30px;
+    }
     
     .playStoreButtonMobile {
     position: absolute;
@@ -700,9 +776,17 @@ h1 {
     #utility .block h2 {
         padding-top: 20px;
     }
+
+    .video2Block {
+        margin-top: 30px;
+    }
 }
 
-@media only screen and (max-width: 300px) { 
+@media only screen and (max-width: 300px) {
+
+    .cakeSize {
+        max-width: 250px;
+    }
     
     .playStoreButtonMobile {
     position: absolute;
@@ -712,6 +796,38 @@ h1 {
     
     .playStoreButton {
         display: none;
+    }
+
+    #slider, #slider .sliderInner, #slider1, #slider1 .sliderInner, #slider2, #slider2 .sliderInner {
+        max-width: 200px;
+        width: 200px;
+        height: 150px;
+    }
+
+    #sliderFrame {
+        max-width: 200px;
+        width: 200px;
+        height: 150px;
+    }
+
+    .reviewHeading {
+        font-size: 25px;
+    }
+
+    .appHeading {
+        font-size: 25px;
+    }
+
+    .teamHeading {
+        font-size: 25px;
+    }
+
+    .aboutUsText {
+        margin-top: 0;
+    }
+
+    .video2Block {
+        margin-top: 30px;
     }
 }
 

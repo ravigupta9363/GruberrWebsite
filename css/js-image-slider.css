@@ -10,12 +10,12 @@
     margin: 0 auto; /*center-aligned*/
 }
   
-#slider, #slider .sliderInner {
+#slider, #slider .sliderInner, #slider1, #slider1 .sliderInner, #slider2, #slider2 .sliderInner {
     width:700px;height:306px;/* Must be the same size as the slider images */
     border-radius: 6px;
 }
 
-#slider {
+#slider, #slider1 , #slider2  {
     background-color:white;
     position:relative;
     transform: translate3d(0,0,0);
@@ -23,7 +23,7 @@
 }
 
 /* the link style (if an image is wrapped by a link) */
-#slider a.imgLink, #slider .video
+#slider a.imgLink, #slider .video, #slider1 a.imgLink, #slider1 .video, #slider2 a.imgLink, #slider2 .video
 {
     z-index:2;
     cursor:pointer;
@@ -31,12 +31,12 @@
     top:0px;left:0px;border:0;padding:0;margin:0;
     width:100%;height:100%;
 }
-#slider .video {
+#slider .video, #slider1 .video, #slider2 .video {
     background:transparent url(../images/video.png) no-repeat 50% 50%;
 }
 
 /* ------ built-in navigation bullets wrapper ------*/
-#slider .navBulletsWrapper  {
+#slider .navBulletsWrapper, #slider1 .navBulletsWrapper, #slider2 .navBulletsWrapper  {
     top:320px;
     text-align:center;
     background:none;
@@ -45,7 +45,7 @@
 }
 
 /* each bullet */
-#slider .navBulletsWrapper div 
+#slider .navBulletsWrapper div, #slider1 .navBulletsWrapper div, #slider2 .navBulletsWrapper div
 {
     width:11px; height:11px;
     font-size:0;color:White;/*hide the index number in the bullet element*/
@@ -55,21 +55,21 @@
     margin:0 6px;/* set distance between each bullet*/
 }
 
-#slider .navBulletsWrapper .active {background-position:0 -11px;}
+#slider .navBulletsWrapper .active, #slider1 .navBulletsWrapper .active, #slider2 .navBulletsWrapper .active {background-position:0 -11px;}
 
 /* --------- Others ------- */
 
-#slider img, #slider>b, #slider a>b {
+#slider img, #slider>b, #slider a>b, #slider1 img, #slider1>b, #slider1 a>b, #slider2 img, #slider2>b, #slider2 a>b {
     position:absolute; border:none; display:none;
 }
 
-#slider .sliderInner {
+#slider .sliderInner, #slider1 .sliderInner, #slider2 .sliderInner {
     overflow:hidden;
     position:absolute; top:0; left:0;
 }
 
-#slider>a, #slider video, #slider audio {display:none;}
-#slider div {
+#slider>a, #slider video, #slider audio, #slider1>a, #slider1 video, #slider1 audio, #slider2>a, #slider2 video, #slider2 audio {display:none;}
+#slider div, #slider1 div, #slider2 div {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);             
     -webkit-backface-visibility: hidden;
