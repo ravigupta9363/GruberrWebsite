@@ -120,7 +120,7 @@ body {
     padding: 10px 20px 20px;
 }
 .card .content .main {
-    min-height: 160px;
+   /* min-height: 160px;*/
 }
 .card .back .content .main {
     height: 215px;
