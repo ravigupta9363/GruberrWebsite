@@ -111,15 +111,16 @@
         <div id="mycarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#mycarousel" data-slide-to="0"></li>
-                <li data-target="#mycarousel" data-slide-to="1"></li>
-                <li data-target="#mycarousel" data-slide-to="2"></li>
-                <li data-target="#mycarousel" data-slide-to="3"></li>
-                <li data-target="#mycarousel" data-slide-to="4"></li>
+                <li data-target="#mycarousel" class="active"></li>
+                <li data-target="#mycarousel"></li>
+                <li data-target="#mycarousel"></li>
+                <li data-target="#mycarousel"></li>
+                <li data-target="#mycarousel"></li>
+
             </ol>
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner">
 
                 <div class="carousel-caption">
                     <h1 class="backgroundHeading">GRUBERR</h1>
@@ -128,38 +129,49 @@
                     <a href="https://www.facebook.com/gruberr99?__mref=message_bubble" target='_blank'><i class="fa fa-facebook fa-2x socialButtons" aria-hidden="true"></i></a>
                     <a href="https://twitter.com/twitt_gruberr" target="_blank"><i class="fa fa-twitter fa-2x socialButtons" aria-hidden="true"></i></a>
                 </div>
-                <div class="item">
+                <div class="item active">
                     <div class="backgroundOpaque"></div>
-                    <img src="images/background3.jpg" data-color="lightblue" alt="First Image">
+                    <img src="images/background1.jpg" alt="First Image">
                 </div>
                 <div class="item">
                     <div class="backgroundOpaque"></div>
-                    <img src="images/background2.jpg" data-color="firebrick" alt="Second Image">
+                    <img src="images/background2.jpg" alt="Second Image">
                 </div>
                 <div class="item">
                     <div class="backgroundOpaque"></div>
-                    <img src="images/background3.jpg" data-color="violet" alt="Third Image">
+                    <img src="images/background3.jpg" alt="Third Image">
                 </div>
                 <div class="item">
                     <div class="backgroundOpaque"></div>
-                    <img src="images/background4.jpg" data-color="lightgreen" alt="Fourth Image">
+                    <img src="images/background4.jpg" alt="Fourth Image">
                 </div>
                 <div class="item">
                     <div class="backgroundOpaque"></div>
-                    <img src="images/background5.jpg" data-color="tomato" alt="Fifth Image">
+                    <img src="images/background5.jpg" alt="Fifth Image">
                 </div>
             </div>
 
             <!-- Controls -->
-            <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+          <!--  <a class="carousel-control left" href="#mycarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+            <a class="carousel-control right" href="#mycarousel" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-            </a>
+            </a>-->
         </div>
+
+        <script>
+            $(function(){
+
+                $('.carousel-control').click(function(e){
+                    e.preventDefault();
+                    $('#mycarousel').carousel( $(this).data() );
+                });
+
+            });//END document.ready
+        </script>
 
 
         <!------------------------------------------------------- Reviews ------------------------------------------------------->
@@ -175,7 +187,7 @@
                         <div class="col-md-5 col-sm-12 col-lg-5 col-xs-12 col-md-offset-1 col-lg-offset-1">
                             <div class="block">
                                 <h3 style="font-weight: bold;font-family: gruberrFont;margin-top: 30px;margin-left: 10px">more than</h3>
-                                <h1 style="font-weight: bold;font-family: bostonTraffic;margin-top: 10px">100+ CHEFS</h1>
+                                <h1 class="videoHeading" style="font-weight: bold;font-family: bostonTraffic;margin-top: 10px">100+ CHEFS</h1>
                                 <div style="width: 100px;height: 10px;background-color: #000;margin-left: 10px"></div>
                                 <h4 style="font-family: gruberrFont;margin-top: 30px;margin-left: 10px;font-size: 18px">Chefs can display their creative cooking, baking and presentation skills via their unique recipes,
                                     users can learn to cook/bake from the world famous chefs.</h4>
@@ -227,7 +239,7 @@
                         <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
                             <div class="block video2Block">
                                 <h3 style="font-weight: bold;font-family: gruberrFont;margin-top: 0;margin-left: 10px">more than</h3>
-                                <h1 style="font-weight: bold;font-family: bostonTraffic;margin-top: 10px">75+ Restaurents</h1>
+                                <h1 class="videoHeading" style="font-weight: bold;font-family: bostonTraffic;margin-top: 10px">75+ Restaurents</h1>
                                 <div style="width: 100px;height: 10px;background-color: #000;margin-left: 10px"></div>
                                 <h4 style="font-family: gruberrFont;margin-top: 30px;margin-left: 10px;font-size: 18px">A unique way for Restaurants to showcase their signature dishes,
                                     at Gruberr people can fulfil their craving for
@@ -243,7 +255,7 @@
                     <div class="col-md-5 col-sm-12 col-lg-5 col-xs-12 col-md-offset-1 col-lg-offset-1">
                         <div class="block">
                             <h3 style="font-weight: bold;font-family: gruberrFont;margin-top: 30px;margin-left: 10px">more than</h3>
-                            <h1 style="font-weight: bold;font-family: bostonTraffic;margin-top: 10px">200+ RECIPES</h1>
+                            <h1 class="videoHeading" style="font-weight: bold;font-family: bostonTraffic;margin-top: 10px">200+ RECIPES</h1>
                             <div style="width: 100px;height: 10px;background-color: #000;margin-left: 10px"></div>
                             <h4 style="font-family: gruberrFont;margin-top: 30px;margin-left: 10px;font-size: 18px">Find a number of recipes from different world cuisines,
                                 learn to cook/bake a variety of recipes and order the recipe ingredients with one click and
@@ -484,7 +496,7 @@
                                         <div class="content">
                                             <div class="main">
                                                 <h3 class="name">Snaphy</h3>
-                                                <p class="profession">Web and App Development Company</p>
+                                                <p class="profession">Web and App</p>
                                             </div>
                                             <div class="footer">
                                                 <div class="social-links text-center">
@@ -569,7 +581,7 @@
                     </a>-->
                     <p><a href="mailto:info@gruberr.com">info@gruberr.com</a></p>
                     <p>+91 8860111340</p>
-                    <a href="http://www.facebook.com" target="_blank"><img style="padding: 20px" src="images/playStoreTab.png"></a>
+                    <a href="" target="_blank">coming soon on <img style="padding: 20px" src="images/playStoreTab.png"></a>
                     <p>Copyright © 2016 Gruberr. All rights reserved. Designed & developed by snaphy.com</p>
 
                 </div>

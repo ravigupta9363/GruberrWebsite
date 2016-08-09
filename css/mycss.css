@@ -710,37 +710,45 @@ h1 {
 
 @media only screen and (max-width: 500px) {
 
+    .videoHeading {
+        font-size: 30px;
+    }
+
     .aboutUsText {
         margin-top: 0;
     }
 
     .cakeSize {
-        max-width: 300px;
+        max-width: 250px;
     }
 
 
     #slider, #slider .sliderInner, #slider1, #slider1 .sliderInner, #slider2, #slider2 .sliderInner {
-        max-width: 300px;
-        width: 300px;
-        height: 200px;
+        max-width: 280px;
+        width: 280px;
+        height: 190px;
+    }
+
+    #slider .navBulletsWrapper, #slider1 .navBulletsWrapper, #slider2 .navBulletsWrapper {
+        top:220px
     }
 
     #sliderFrame {
-        max-width: 300px;
-        width: 300px;
-        height: 200px;
+        max-width: 280px;
+        width: 280px;
+        height: 190px;
     }
 
     .reviewHeading {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .appHeading {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .teamHeading {
-        font-size: 30px;
+        font-size: 24px;
     }
     
     .playStoreButtonMobile {
@@ -787,7 +795,7 @@ h1 {
     }
 
     .video2Block {
-        margin-top: 30px;
+        margin-top: 50px;
     }
 }
 
