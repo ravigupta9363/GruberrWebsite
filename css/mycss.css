@@ -469,7 +469,7 @@ h1 {
     max-width:960px;
     height:auto;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 0;
 }
 
 #contact .container form input,
@@ -861,7 +861,9 @@ h1 {
 }
 
 footer {
-    padding-top: 20px;
+    padding-top: 0;
+    border-top: none;
+    padding: 0;
 }
 
 .menu .navbar-default .navbar-nav > li > a {
